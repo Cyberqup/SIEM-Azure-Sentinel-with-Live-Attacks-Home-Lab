@@ -343,7 +343,6 @@ Project consists of using Microssoft Azure to build a SIEM to track live attacks
 <br />
 <mark>Run the following query with a custom commands extracting certain data to plot onto the map:</mark> <br/>
 <img src="https://i.imgur.com/wT32HQW.png" height="80%" width="80%" alt="SIEM Building Steps"/>
-<img src="https://i.imgur.com/Pb8dSdY.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
 <mark>Set visualisation as map to show failed login attempts:</mark> <br/>
 <img src="https://i.imgur.com/Pg3ES7P.png" height="80%" width="80%" alt="SIEM Building Steps"/>
