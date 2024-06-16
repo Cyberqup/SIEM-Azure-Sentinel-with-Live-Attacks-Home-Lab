@@ -21,7 +21,7 @@ Project consists of using Microssoft Azure to build a SIEM to track live attacks
 <h2>Layout of the Project:</h2>
 
 <p align="center">
-Project goal: <br/>
+<mark>Project goal:</mark> <br/>
 <img src="https://i.imgur.com/IKkyYyz.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
 
@@ -83,11 +83,45 @@ Project goal: <br/>
 <h2>Build walk-through Step 2 (Log Analytics Workspace):</h2>
 <p align="center">
 <br />
-<mark>Moving onto Log Analytics workspace:</mark> <br/>
+<mark>Moving onto Log Analytics Workspace:</mark> <br/>
 <img src="https://i.imgur.com/Uk8kyyw.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
-<mark>VM completed :</mark>  <br/>
-<img src="https://i.imgur.com/5feBRXf.png" height="80%" width="80%" alt="SIEM Building Steps"/> 
+<mark>Log Analytics Workspace Mainpage :</mark>  <br/>
+<img src="https://i.imgur.com/kysqi1m.png" height="80%" width="80%" alt="SIEM Building Steps"/> 
+<br />
+<mark>Log creation settings filled out :</mark>  <br/>
+<img src="https://i.imgur.com/LtfbDeT.png" height="80%" width="80%" alt="SIEM Building Steps"/> 
+<br />
+<mark>Log validation :</mark>  <br/>
+<img src="https://i.imgur.com/02ieWRa.png" height="80%" width="80%" alt="SIEM Building Steps"/> 
+<br />
+<mark>Deployment of log success :</mark>  <br/>
+<img src="https://i.imgur.com/NZtazgv.png" height="80%" width="80%" alt="SIEM Building Steps"/> 
+</p>
+
+<h2>Build walk-through Step 3 (Microsoft Defender for Cloud):</h2>
+<p align="center">
+<br />
+<mark>Moving onto Microsoft Defender for Cloud:</mark> <br/>
+<img src="https://i.imgur.com/jo77Ux5.png" height="80%" width="80%" alt="SIEM Building Steps"/>
+<br />
+<mark>Mainpage of Defender for Cloud:</mark> <br/>
+<img src="https://i.imgur.com/35E4aUM.png" height="80%" width="80%" alt="SIEM Building Steps"/>
+<br />
+<mark>Looking at the sidebar we move onto environment settings:</mark> <br/>
+<img src="https://i.imgur.com/Ldhmm5Z.png" height="80%" width="80%" alt="SIEM Building Steps"/>
+<br />
+<mark>In environment setting we move onto the law-honeypot to turn of certain settings:</mark> <br/>
+<img src="https://i.imgur.com/jo77Ux5.png" height="80%" width="80%" alt="SIEM Building Steps"/>
+<br />
+<mark>Settings which are turned on are the following:</mark> <br/>
+<img src="https://i.imgur.com/gL75s8u.png" height="80%" width="80%" alt="SIEM Building Steps"/>
+<br />
+<mark>Settings which are turned on are the following:</mark> <br/>
+<img src="https://i.imgur.com/gL75s8u.png" height="80%" width="80%" alt="SIEM Building Steps"/>
+
+
+
 
 </p>
 
