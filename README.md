@@ -1,21 +1,19 @@
 <h1>SIEM Azure Sentinel with Live Attacks Home Lab</h1>
 
 <h2>Description</h2>
-Project consists of using Microssoft Azure to build a SIEM to track live attacks for a single VM that is exposed to the internet. The goal is to assess the possiblities of attackers trying to Brute force 
+Project consists of using Microssoft Azure to build a SIEM to track live attacks for a single VM that is exposed to the internet. The goal is to assess the possiblities of attackers trying to Brute force and inform the follow reasons on why you shouldn't use default credentials and no matter how big or small the organisation/individual's are attackers will still try to brute force their way through to gain access.
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Utilities Used</h2>
 
 - <b>Microsoft Azure</b>
 - <b>Sentinel</b>
+- <b>Microsoft Defender for Cloud</b>
 - <b>Log Analytics Workspace</b>
 - <b>Virtual Machine</b>
 - <b>PowerShell ISO</b>
 - <b>Event Viewer</b>
-
-<h2>Environments Used </h2>
-
 - <b>Windows 10 Pro</b> (22H2)
 
 <h2>Layout of the Project:</h2>
