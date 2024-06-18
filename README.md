@@ -22,7 +22,7 @@ This project provides a comprehensive guide on building a Security Information a
 <img src="https://i.imgur.com/NL8ioUi.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
 
-<h2>Build walk-through Step 1 (VM Setup):</h2>
+<h2>Section 1 - VM Setup</h2>
 
 <p align="center">
 <br />
@@ -86,7 +86,7 @@ This project provides a comprehensive guide on building a Security Information a
 <img src="https://i.imgur.com/5feBRXf.png" height="80%" width="80%" alt="SIEM Building Steps"/> 
 </p>
 
-<h2>Build walk-through Step 2 (Log Analytics Workspace):</h2>
+<h2>Section 2 - Log Analytics Workspace</h2>
 <p align="center">
 <br />
 <mark>Moving onto Log Analytics Workspace:</mark> <br/>
@@ -109,7 +109,7 @@ This project provides a comprehensive guide on building a Security Information a
 <img src="https://i.imgur.com/NZtazgv.png" height="80%" width="80%" alt="SIEM Building Steps"/> 
 </p>
 
-<h2>Build walk-through Step 3 (Microsoft Defender for Cloud):</h2>
+<h2>Section 3 - Microsoft Defender for Cloud</h2>
 <p align="center">
 <br />
 <mark>Moving onto Microsoft Defender for Cloud:</mark> <br/>
@@ -136,10 +136,9 @@ This project provides a comprehensive guide on building a Security Information a
 <img src="https://i.imgur.com/sv4BVid.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 </p>
 
-<h2>Build walk-through Step 3 (Microsoft Defender for Cloud):</h2>
+<h2>Section 4 - Connecting VM to Law-Honeypot</h2>
 <p align="center">
 <br />
- <br />
 <mark>Moving back to Log Analytics Workspace:</mark> <br/>
 <img src="https://i.imgur.com/yGpaJ3L.png" height="50%" width="50%" alt="SIEM Building Steps"/>
 <br />
@@ -149,22 +148,22 @@ This project provides a comprehensive guide on building a Security Information a
 <br />
  <br />
 <mark>Using the sidebar I find the Virtual Machine and proceed through :</mark> <br/>
-<img src="https://i.imgur.com/q9GLHsa.png" height="30%" width="30%" alt="SIEM Building Steps"/>
+<img src="https://i.imgur.com/q9GLHsa.png" height="20%" width="20%" alt="SIEM Building Steps"/>
 <br />
  <br />
 <mark>Proceed to connect the VM with the workspace law-honeypot:</mark> <br/>
-<img src="https://i.imgur.com/OsROCy6.png" height="50%" width="50%" alt="SIEM Building Steps"/>
+<img src="https://i.imgur.com/OsROCy6.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
 <mark>Continuation:</mark> <br/>
-<img src="https://i.imgur.com/jQvbjl6.png" height="80%" width="80%" alt="SIEM Building Steps"/>
+<img src="https://i.imgur.com/jQvbjl6.png" height="50%" width="50%" alt="SIEM Building Steps"/>
 <br />
  <br />
 <mark>VM connected with law-honeypot:</mark> <br/>
 <img src="https://i.imgur.com/PkyRfPs.png" height="50%" width="50%" alt="SIEM Building Steps"/>
 </p>
 
-<h2>Build walk-through Step 4 (Microsoft Sentinel):</h2>
+<h2>Section 5 - Microsoft Sentinel</h2>
 <p align="center">
 <br />
 <mark>Moving onto Sentinel:</mark> <br/>
@@ -183,7 +182,7 @@ This project provides a comprehensive guide on building a Security Information a
 <img src="https://i.imgur.com/fsnPivm.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 </p>
 
-<h2>Build walk-through Step 5 (Log Analytics Workspace):</h2>
+<h2>Section 6 - Log Analytics Workspace</h2>
 <p align="center">
 <br />
 <mark>Moving back to Log Analytics Workspace:</mark> <br/>
@@ -202,7 +201,7 @@ This project provides a comprehensive guide on building a Security Information a
 <img src="https://i.imgur.com/IXGcWGE.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 </p>
 
-<h2>Build walk-through Step 6 (Using Remote Desktop Connection (RDP) to access the VM):</h2>
+<h2>Section - 7 Using Remote Desktop Connection (RDP) to access the VM</h2>
 <p align="center">
 <br />
 <mark>Moving to the RDP VM and entering the VM IP address:</mark> <br/>
@@ -277,7 +276,7 @@ This project provides a comprehensive guide on building a Security Information a
 <img src="https://i.imgur.com/OZ92Rli.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 </p>
 
-<h2>Build walk-through Step 7 (VM PowerShell ISE Script):</h2>
+<h2>Section 8 - VM PowerShell ISE Script:</h2>
 <p align="center">
 <br />
 <mark>To relay log information to the SIEM I copy a custom script:</mark> <br/>
@@ -333,7 +332,7 @@ This project provides a comprehensive guide on building a Security Information a
 <img src="https://i.imgur.com/vtwj72c.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 </p>
 
-<h2>Build walk-through Step 8 (Log Analytics Workspace - Custom Logs):</h2>
+<h2>Section 9 - Log Analytics Workspace with Custom Logs</h2>
 <p align="center">
 <br />
 <mark>Moving onto Log Analytics Workspace > In the law-honeypot > To create a custom log:</mark> <br/>
@@ -398,7 +397,7 @@ This project provides a comprehensive guide on building a Security Information a
 <img src="https://i.imgur.com/LkvGnfs.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 </p>
 
-<h2>Build walk-through Step 9 (Live Attacks shown on a map):</h2>
+<h2>Section 10 - Live Attacks shown on a map</h2>
 <p align="center">
 <br />
 <mark>On the same query pull certain extracts from the logs with the following commands:</mark> <br/>
