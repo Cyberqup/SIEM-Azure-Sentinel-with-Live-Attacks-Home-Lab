@@ -26,15 +26,15 @@ This project provides a comprehensive guide on building a Security Information a
 
 <p align="center">
 <br />
-<mark>Starting up Azure</mark> <br/>
+<mark>Starting up Azure, this is the main hub page. I move towards <strong>"deploy a virtual machine"</strong> as shown on the image below.</mark> <br/>
 <img src="https://i.imgur.com/cqC7JpG.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
 <br />
-<mark>Using Azure I create a Windows VM to be exposed for attackers to attempt logins</mark> <br/>
+<mark>I create a Windows VM (Virtual Machine) to be exposed for attackers to attempt RDP (Remote Desktop Protocol) logins.</mark> <br/>
 <img src="https://i.imgur.com/vN7Q8QO.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
 <br />
-<mark>VM creation settings</mark>  <br/>
+<mark>As I move on to create the VM, I must proceed through the settings to deploy it.</mark>  <br/>
 <img src="https://i.imgur.com/EmcEYaf.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
 <br />
@@ -400,7 +400,8 @@ This project provides a comprehensive guide on building a Security Information a
 <h2>Section 10 - Live Attacks shown on a map</h2>
 <p align="center">
 <br />
-<mark>On the same query pull certain extracts from the logs with the following commands:</mark> <br/>
+<mark>On the same query pull certain extracts from the logs with the following commands.<br/></mark>
+Further explaination : "FAILED_RDP_WITH_GEO_CL" is the name of the log table I was querying, <strong>"extend"</strong> creates columns by extracting data from the <strong>'RawData'</strong> field, extracts are made by using a regex (regular expression) pattern which is a sequence of characters that defines a search pattern. Regex are used for tasks such as validating input, seraching for patterns within text, and extracting specific information from text. <strong>"project"</strong> selects the columns to be included in the output. This query is designed to parse specific information from the <strong>'RawData'</strong> field and present it in a structured format as a geographic map. <br/>
 <img src="https://i.imgur.com/w622nlB.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
