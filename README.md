@@ -26,23 +26,23 @@ This project provides a comprehensive guide on building a Security Information a
 
 <p align="center">
 <br />
-<mark>Starting up Azure (Using the free subscription):</mark> <br/>
+<mark>Starting up Azure</mark> <br/>
 <img src="https://i.imgur.com/cqC7JpG.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
 <br />
-<mark>Using Azure I create a Windows VM to be exposed for attackers to attempt logins:</mark> <br/>
+<mark>Using Azure I create a Windows VM to be exposed for attackers to attempt logins</mark> <br/>
 <img src="https://i.imgur.com/vN7Q8QO.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
 <br />
-<mark>VM creation settings:</mark>  <br/>
+<mark>VM creation settings</mark>  <br/>
 <img src="https://i.imgur.com/EmcEYaf.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
 <br />
-<mark>Naming the VM as Honeypotlab:</mark>  <br/>
+<mark>Naming the VM as Honeypotlab</mark>  <br/>
 <img src="https://i.imgur.com/LA3593B.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
 <br />
-<mark>Selected Windows 10 Pro (22H2) image for the VM:</mark>  <br/>
+<mark>Selected Windows 10 Pro (22H2) image for the VM</mark>  <br/>
 <img src="https://i.imgur.com/purRcv5.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
 <br />
