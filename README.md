@@ -139,196 +139,196 @@ This project provides a comprehensive guide on building a Security Information a
 <h2>Section 4 - Connecting VM to Law-Honeypot</h2>
 <p align="center">
 <br />
-<mark>Moving back to Log Analytics Workspace:</mark> <br/>
+<mark>Moving back to Log Analytics Workspace.</mark> <br/>
 <img src="https://i.imgur.com/yGpaJ3L.png" height="50%" width="50%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Enter into the Law-Honeypot:</mark> <br/>
+<mark>Enter into the Law-Honeypot.</mark> <br/>
 <img src="https://i.imgur.com/etcGm6R.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Using the sidebar I find the Virtual Machine and proceed through :</mark> <br/>
+<mark>Using the sidebar I proceed into <strong>"Virtual Machine"</strong>.</mark> <br/>
 <img src="https://i.imgur.com/q9GLHsa.png" height="20%" width="20%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Proceed to connect the VM with the workspace law-honeypot:</mark> <br/>
+<mark>Proceed to connect the VM with the workspace law-honeypot.</mark> <br/>
 <img src="https://i.imgur.com/OsROCy6.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Continuation:</mark> <br/>
+<mark>Proceed to connect.</mark> <br/>
 <img src="https://i.imgur.com/jQvbjl6.png" height="50%" width="50%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>VM connected with law-honeypot:</mark> <br/>
+<mark>VM connected with law-honeypot.</mark> <br/>
 <img src="https://i.imgur.com/PkyRfPs.png" height="50%" width="50%" alt="SIEM Building Steps"/>
 </p>
 
 <h2>Section 5 - Microsoft Sentinel</h2>
 <p align="center">
 <br />
-<mark>Moving onto Sentinel:</mark> <br/>
+<mark>Moving onto Sentinel.</mark> <br/>
 <img src="https://i.imgur.com/RKPBkF4.png" height="50%" width="50%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Creating Sentinel:</mark> <br/>
+<mark>Proceed to <strong>"Create Microsoft Sentinel"</strong>.</mark> <br/>
 <img src="https://i.imgur.com/ZojuRNU.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Adding Sentinel to the workspace law-honeypot:</mark> <br/>
+<mark>Add Sentinel to the workspace law-honeypot.</mark> <br/>
 <img src="https://i.imgur.com/Gd47Sjv.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Sentinel completed:</mark> <br/>
+<mark>Sentinel and law-honeypot workspaced is now linked.</mark> <br/>
 <img src="https://i.imgur.com/fsnPivm.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 </p>
 
 <h2>Section 6 - Log Analytics Workspace</h2>
 <p align="center">
 <br />
-<mark>Moving back to Log Analytics Workspace:</mark> <br/>
+<mark>Moving back to Log Analytics Workspace.</mark> <br/>
 <img src="https://i.imgur.com/jpYhyGK.png" height="50%" width="50%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Enter back into law-honeypot workspace:</mark> <br/>
+<mark>Enter back into law-honeypot workspace.</mark> <br/>
 <img src="https://i.imgur.com/pXAWgqg.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Enter into the Honeypot-VM:</mark> <br/>
+<mark>Enter into the Honeypot-VM as shown.</mark> <br/>
 <img src="https://i.imgur.com/xic0VSC.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Once in the VM information page we take and save the IP address to sign in using it later:</mark> <br/>
+<mark>Once in the VM information page I take note of the IP address to sign in to the VM.</mark> <br/>
 <img src="https://i.imgur.com/IXGcWGE.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 </p>
 
 <h2>Section - 7 Using Remote Desktop Connection (RDP) to access the VM</h2>
 <p align="center">
 <br />
-<mark>Moving to the RDP VM and entering the VM IP address:</mark> <br/>
+<mark>Moving to the RDP VM and entering the VM IP address.</mark> <br/>
 <img src="https://i.imgur.com/KWHiwvp.png" height="50%" width="50%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Connecting requires the credentials for the VM to sign in:</mark> <br/>
+<mark>Connecting requires the <strong>"Administrator credentials"</strong> that were created earlier during the VM setup.</mark> <br/>
 <img src="https://i.imgur.com/aNtmovr.png" height="50%" width="50%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Certificate not valid authorise to proceed through:</mark> <br/>
+<mark>Once credentials are used to sign in the <strong>"Certificate"</strong> prompt shows that it's not valid but to continue we must authorise to proceed through.</mark> <br/>
 <img src="https://i.imgur.com/loVf22m.png" height="50%" width="50%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>VM proceeding to login:</mark> <br/>
+<mark>VM opening process.</mark> <br/>
 <img src="https://i.imgur.com/BGEDWk0.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>VM has loaded:</mark> <br/>
+<mark>VM loaded in.</mark> <br/>
 <img src="https://i.imgur.com/mjrdo6d.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>On the VM I open Event Viewer:</mark> <br/>
+<mark>On the VM is open, I proceed to <strong>"Event Viewer"</strong>.</mark> <br/>
 <img src="https://i.imgur.com/SX6vDB7.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Event Viewer application:</mark> <br/>
+<mark>As shown this is the <strong>"Event Viewer"</strong> application.</mark> <br/>
 <img src="https://i.imgur.com/4HeFlPN.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Event Viewer Audit Logs:</mark> <br/>
+<mark>Following the image <strong>"Window Logs > Security"</strong> to show logs of login attempts successfully and unsuccessfully attempts to login.</mark> <br/>
 <img src="https://i.imgur.com/xzg0cXB.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>While the VM is online I can reopen another RDP to try login with the wrong credentials to show an Audit Failure:</mark> <br/>
+<mark>While the VM is online I can reopen another RDP to try login with the wrong credentials to show an Audit Failure (Failed Login Attempt).</mark> <br/>
 <img src="https://i.imgur.com/QROeHtU.png" height="50%" width="50%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Event Viewer showing Audit Failure:</mark> <br/>
+<mark>Event Viewer showing the attempt as - Audit Failure.</mark> <br/>
 <img src="https://i.imgur.com/GTwBZMa.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Event Viewer showing Audit Failure I pull the IP address and track:</mark> <br/>
+<mark>Event Viewer is showing Audit Failure, by looking in deeper within the Failure I can see the IP address and other information based on the attempt made.</mark> <br/>
 <img src="https://i.imgur.com/R0xng92.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Go onto ipgeolocation.io to track IP source address and other details:</mark> <br/>
+<mark>Moving onto <strong>"ipgeolocation.io"</strong> this is used to track IP source address and other details for the purpose of display data on the live map. Using the IP address for the recent Failure it shows the following information.</mark> <br/>
 <img src="https://i.imgur.com/z6Fo1qN.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Going back to the main computer open CMD to try ping the VM, the VM pinging request timed out is due to the firewall still active on the VM:</mark> <br/>
+<mark>Going back to the main computer open CMD to try ping the VM, the VM pinging request timed out. This is due to the firewall still active on the VM preventing the pings.</mark> <br/>
 <img src="https://i.imgur.com/knGERFA.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>On the VM desktop I move into the Firewall Advanced settings:</mark> <br/>
+<mark>On the VM desktop, I move into the Firewall Advanced settings.</mark> <br/>
 <img src="https://i.imgur.com/6hk0riv.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Firewall Advanced settings:</mark> <br/>
+<mark>Firewall Advanced settings.</mark> <br/>
 <img src="https://i.imgur.com/e81ATKl.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Enter "Windows Defender Firewall Properties" then turn off "Firewall state" for the following, Domain, Private, and Public profile:</mark> <br/>
+<mark>Enter <strong>"Windows Defender Firewall Properties"</strong> then turn off <strong>"Firewall state"</strong> for the following, Domain, Private, and Public profile.</mark> <br/>
 <img src="https://i.imgur.com/9ho2ODJ.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Firewall Advanced settings all turned off:</mark> <br/>
+<mark>Firewall Advanced settings all turned off.</mark> <br/>
 <img src="https://i.imgur.com/aFtTd0C.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Re-trying ping command which shows feedback now:</mark> <br/>
+<mark>Proceed to re-try the ping command which shows feedback from the VM.</mark> <br/>
 <img src="https://i.imgur.com/OZ92Rli.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 </p>
 
-<h2>Section 8 - VM PowerShell ISE Script:</h2>
+<h2>Section 8 - VM PowerShell ISE Script</h2>
 <p align="center">
 <br />
-<mark>To relay log information to the SIEM I copy a custom script:</mark> <br/>
+<mark>While still in the VM, to relay log information to the SIEM I copy a custom script from the following Github repository made by <strong>"Josh Madakor"</strong>. The script is for ipgeolocation.io to link with the SIEM to input data into a visulised map for the live attacks.</mark> <br/>
 <img src="https://i.imgur.com/IlolTWQ.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Opening PowerShell ISE on the VM:</mark> <br/>
+<mark>Moving onto opening PowerShell ISE on the VM.</mark> <br/>
 <img src="https://i.imgur.com/SdyjskL.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>PowerShell ISE:</mark> <br/>
+<mark>PowerShell ISE.</mark> <br/>
 <img src="https://i.imgur.com/SVLAUhj.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>PowerShell ISE create new file:</mark> <br/>
+<mark>PowerShell ISE create a new file.</mark> <br/>
 <img src="https://i.imgur.com/9MqKaSn.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>PowerShell ISE paste the custom script into the file:</mark> <br/>
+<mark>Paste the custom script into the file.</mark> <br/>
 <img src="https://i.imgur.com/59KcDOu.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Moving onto the geolocation website I needed to create an account to grab an API key for the custom script to work and gather geolocation information to graph out into the live map:</mark> <br/>
+<mark>Moving onto the geolocation website I needed to create an account to grab a API key for the custom script to work and gather geolocation information to graph out into the live map.</mark> <br/>
 <img src="https://i.imgur.com/OLKj1j3.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <img src="https://i.imgur.com/80Let9f.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Insert API key into the custom script:</mark> <br/>
+<mark>Insert API key into the custom script.</mark> <br/>
 <img src="https://i.imgur.com/1Vi58vr.png" height="50%" width="50%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Test run the script to see if it pulls data from the failed login attempts that I've created earlier:</mark> <br/>
+<mark>Test run the script to see if it pulls data from the failed login attempts that I've created earlier.</mark> <br/>
 <img src="https://i.imgur.com/FTEVGi0.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Script logs are captured into the following directory and file labaled as "failed_rdp":</mark> <br/>
+<mark>Script logs are captured into the following directory and file labaled as <strong>"failed_rdp"</strong>.</mark> <br/>
 <img src="https://i.imgur.com/F1v6vEp.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>"failed_rdp" file captures information in the follow layout:</mark> <br/>
+<mark><strong>"failed_rdp"</strong> file captures information in the follow layout.</mark> <br/>
 <img src="https://i.imgur.com/NfK7FHl.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Test another fail login attempt to see if this tracks:</mark> <br/>
+<mark>Test another fail login attempt to see if this is tracked.</mark> <br/>
 <img src="https://i.imgur.com/g1u0qXl.png" height="30%" width="30%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>As shown in the PowerShell ISE, it shows the new failed login attempt user "iamwrong":</mark> <br/>
+<mark>As shown in the PowerShell ISE, it shows the new failed login attempt user "iamwrong".</mark> <br/>
 <img src="https://i.imgur.com/A0s5uLY.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>As shown in "filed_rdp" file, it shows the new failed login attempt user "iamwrong":</mark> <br/>
+<mark>As shown in <strong>"failed_rdp"</strong> file, it shows the new failed login attempt user "iamwrong".</mark> <br/>
 <img src="https://i.imgur.com/vtwj72c.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 </p>
 
