@@ -26,63 +26,63 @@ This project provides a comprehensive guide on building a Security Information a
 
 <p align="center">
 <br />
-<mark>Starting up Azure, this is the main hub page. I move towards <strong>"deploy a virtual machine"</strong> as shown on the image below.</mark> <br/>
+<mark>Starting up Azure, as shown in the image below is the main hub page. I select <strong>"deploy a virtual machine"</strong>.</mark> <br/>
 <img src="https://i.imgur.com/cqC7JpG.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
 <br />
-<mark>I create a Windows VM (Virtual Machine) to be exposed for attackers to attempt RDP (Remote Desktop Protocol) logins.</mark> <br/>
+<mark>Creating a Windows VM (Virtual Machine) to be exposed for attackers to attempt RDP (Remote Desktop Protocol) logins.</mark> <br/>
 <img src="https://i.imgur.com/vN7Q8QO.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
 <br />
-<mark>As I move on to create the VM, I must proceed through the settings to deploy it.</mark>  <br/>
+<mark>As I move on to create the VM, I must proceed through the settings to deploy.</mark>  <br/>
 <img src="https://i.imgur.com/EmcEYaf.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
 <br />
-<mark>Naming the VM as Honeypotlab</mark>  <br/>
+<mark>As shown below in the image, I <strong>"Create new"</strong> and name the VM <strong>"Honeypotlab"</strong> then proceeding to hit <strong>"OK"</strong>.</mark>  <br/>
 <img src="https://i.imgur.com/LA3593B.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
 <br />
-<mark>Selected Windows 10 Pro (22H2) image for the VM</mark>  <br/>
+<mark>Moving along through <strong>"Instance details"</strong> filling in further details and selecting Windows 10 Pro (22H2) <strong>"Image"</strong> for the VM</mark>  <br/>
 <img src="https://i.imgur.com/purRcv5.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
 <br />
-<mark>VM user creation:</mark> <br/>
+<mark>Moving down the page to setup the VM Administrator account as shown in the image below. Selecting <strong>"Allow selected ports"</strong>, setting inbound ports as <strong>"RDP 3389"</strong> and finally confirming the licensing tick box to proceed over to <strong>"Disks"</strong>.</mark> <br/>
 <img src="https://i.imgur.com/jLkdtTV.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
 <br />
-<mark>VM Disk settings:</mark>  <br/>
+<mark>Follow up to the <strong>"Disk"</strong> page, and setting up the basic needs for the VM.</mark>  <br/>
 <img src="https://i.imgur.com/ZW9O1EK.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>VM networking :</mark>  <br/>
+<mark>Moving on to the <strong>"Networking"</strong> page, only setting I changed are <strong>"NIC network security group"</strong> set to <strong>"Advanced"</strong> and moving onto <strong>"Configure network security group"</strong> I create new and proceed through as shown below.</mark>  <br/>
 <img src="https://i.imgur.com/hRIuTqm.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>VM network rule creation :</mark>  <br/>
+<mark>This following image shows the follow up from selecting <strong>"create new"</strong>. This preset rule has to be deleted for the custom rule.</mark>  <br/>
 <img src="https://i.imgur.com/OVUjTHh.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>VM network, adding a new inbound rule to permit traffic anywhere and everywhere:</mark>  <br/>
+<mark>Once preset is deleted, I <strong>"Add an inbound rule"</strong> and set the following changes <strong>"Destination port ranges" to *, "Priority" to 100, and "Name" to Danger_any_in</strong> and proceed to add the rule.</mark>  <br/>
 <img src="https://i.imgur.com/FLYSjMY.png" height="80%" width="80%" alt="SIEM Building Steps"/>
  <br />
  <br />
-<mark>Proceed to add the rule :</mark>  <br/>
+<mark>Once rule is added it'll show this new custom rule.</mark>  <br/>
 <img src="https://i.imgur.com/eJrE76k.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Review and create the VM :</mark>  <br/>
+<mark>Finally review and create the VM.</mark>  <br/>
 <img src="https://i.imgur.com/koQyaK6.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>VM creation validation :</mark>  <br/>
+<mark>VM creation validation passed as shown.</mark>  <br/>
 <img src="https://i.imgur.com/hIkmV0E.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Deploying the VM :</mark>  <br/>
+<mark>Proceeding to deploy the VM.</mark>  <br/>
 <img src="https://i.imgur.com/KlvYEIO.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>VM completed :</mark>  <br/>
+<mark>VM deployment completed.</mark>  <br/>
 <img src="https://i.imgur.com/5feBRXf.png" height="80%" width="80%" alt="SIEM Building Steps"/> 
 </p>
 
