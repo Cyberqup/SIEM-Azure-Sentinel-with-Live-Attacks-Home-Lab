@@ -112,27 +112,27 @@ This project provides a comprehensive guide on building a Security Information a
 <h2>Section 3 - Microsoft Defender for Cloud</h2>
 <p align="center">
 <br />
-<mark>Moving onto Microsoft Defender for Cloud:</mark> <br/>
+<mark>Moving onto Microsoft Defender for Cloud.</mark> <br/>
 <img src="https://i.imgur.com/jo77Ux5.png" height="50%" width="50%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Mainpage of Defender for Cloud:</mark> <br/>
+<mark>Main page of Defender for Cloud.</mark> <br/>
 <img src="https://i.imgur.com/35E4aUM.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Looking at the sidebar we move onto environment settings:</mark> <br/>
+<mark>Looking at the sidebar I proceed into environment settings.</mark> <br/>
 <img src="https://i.imgur.com/Ldhmm5Z.png" height="30%" width="30%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>In environment setting we move onto the law-honeypot to turn on certain settings:</mark> <br/>
+<mark>In environment setting I move onto the law-honeypot to turn <strong>"On"</strong> plans.</mark> <br/>
 <img src="https://i.imgur.com/RhjKKy2.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>The following settings which are turned on:</mark> <br/>
+<mark>As shown below the 2 following plans were turned <strong>"On"</strong>.</mark> <br/>
 <img src="https://i.imgur.com/gL75s8u.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Moving ontowards data collection selecting "ALL EVENTS":</mark> <br/>
+<mark>Moving ontowards <strong>"data collection"</strong> selecting <strong>"ALL EVENTS"</strong> and save the following changes.</mark> <br/>
 <img src="https://i.imgur.com/sv4BVid.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 </p>
 
