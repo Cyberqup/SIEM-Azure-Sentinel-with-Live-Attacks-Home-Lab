@@ -89,23 +89,23 @@ This project provides a comprehensive guide on building a Security Information a
 <h2>Section 2 - Log Analytics Workspace</h2>
 <p align="center">
 <br />
-<mark>Moving onto Log Analytics Workspace:</mark> <br/>
+<mark>Moving to Log Analytics Workspace.</mark> <br/>
 <img src="https://i.imgur.com/Uk8kyyw.png" height="50%" width="50%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Log Analytics Workspace Mainpage :</mark>  <br/>
+<mark>Log Analytics Workspace Main page, and selecting <strong>"Create log analytics workspace"</strong>.</mark>  <br/>
 <img src="https://i.imgur.com/kysqi1m.png" height="80%" width="80%" alt="SIEM Building Steps"/> 
 <br />
  <br />
-<mark>Log creation settings filled out :</mark>  <br/>
+<mark>Proceeding through the creation of the workspace selecting from <strong>"Resource group"</strong> Honeypotlab and <strong>"Instance details" - Name</strong> law-honeypot, continuing to <strong>"Review + Create"</strong>.</mark>  <br/>
 <img src="https://i.imgur.com/LtfbDeT.png" height="80%" width="80%" alt="SIEM Building Steps"/> 
 <br />
  <br />
-<mark>Log validation :</mark>  <br/>
+<mark>Validation passed after <strong>"Review + Create"</strong>.</mark>  <br/>
 <img src="https://i.imgur.com/02ieWRa.png" height="80%" width="80%" alt="SIEM Building Steps"/> 
 <br />
  <br />
-<mark>Deployment of log success :</mark>  <br/>
+<mark>Deployment completed.</mark>  <br/>
 <img src="https://i.imgur.com/NZtazgv.png" height="80%" width="80%" alt="SIEM Building Steps"/> 
 </p>
 
