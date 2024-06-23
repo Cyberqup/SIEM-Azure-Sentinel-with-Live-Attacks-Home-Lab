@@ -9,12 +9,10 @@ This project provides a comprehensive guide on building a Security Information a
  <tr>
   <td>Microsoft Azure</td>
   <td>Sentinel</td>
- </tr>
- <tr>
   <td>Defender for Cloud</td>
-  <td>Log Analytics Workspace</td>
  </tr>
  <tr>
+  <td>Log Analytics Workspace</td>
   <td>Virtual Machine</td>
   <td>PowerShell ISO</td>
  </tr>
