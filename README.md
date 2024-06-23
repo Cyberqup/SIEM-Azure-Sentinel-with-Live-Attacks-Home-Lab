@@ -17,7 +17,7 @@ This project provides a comprehensive guide on building a Security Information a
   <td>PowerShell ISO</td>
  </tr>
  <tr>
-  <td>Event Viewer</td>
+  <td>Windows Event Viewer</td>
   <td>Windows 10 Pro (22H2)</td>
  </tr>
 </table>
