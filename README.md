@@ -5,15 +5,25 @@ This project provides a comprehensive guide on building a Security Information a
 <br />
 
 <h2>Utilities Used</h2>
-
-- <b>Microsoft Azure</b>
-- <b>Sentinel</b>
-- <b>Defender for Cloud</b>
-- <b>Log Analytics Workspace</b>
-- <b>Virtual Machine</b>
-- <b>PowerShell ISO</b>
-- <b>Event Viewer</b>
-- <b>Windows 10 Pro</b> (22H2)
+<table>
+ <tr>
+  <td>Microsoft Azure</td>
+  <td>Sentinel</td>
+ </tr>
+ <tr>
+  <td>Defender for Cloud</td>
+  <td>Log Analytics Workspace</td>
+ </tr>
+ <tr>
+  <td>Virtual Machine</td>
+  <td>PowerShell ISO</td>
+ </tr>
+ <tr>
+  <td>Event Viewer</td>
+  <td>Windows 10 Pro (22H2)</td>
+ </tr>
+</table>
+<br/>
 
 <h2>Instructions</h2>
 
@@ -22,7 +32,7 @@ This project provides a comprehensive guide on building a Security Information a
 <img src="https://i.imgur.com/NL8ioUi.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
 
-<h2>Section 1 - VM Setup</h2>
+ <h2>Section 1 - VM Setup</h2>
 
 <p align="center">
 <br />
