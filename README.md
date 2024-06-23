@@ -8,14 +8,14 @@ This project provides a comprehensive guide on building a Security Information a
 
 - <b>Microsoft Azure</b>
 - <b>Sentinel</b>
-- <b>Microsoft Defender for Cloud</b>
+- <b>Defender for Cloud</b>
 - <b>Log Analytics Workspace</b>
 - <b>Virtual Machine</b>
 - <b>PowerShell ISO</b>
 - <b>Event Viewer</b>
 - <b>Windows 10 Pro</b> (22H2)
 
-<h2></h2>
+<h2>Instructions</h2>
 
 <p align="center">
 <strong><mark>Project Diagram</mark></strong> <br/>
@@ -26,7 +26,7 @@ This project provides a comprehensive guide on building a Security Information a
 
 <p align="center">
 <br />
-<mark>Starting up Azure, as shown in the image below is the main hub page. I select <strong>"deploy a virtual machine"</strong>.</mark> <br/>
+<mark>Using Azure, as shown in the image below is the main hub page. Selecting <strong>"deploy a virtual machine"</strong>.</mark> <br/>
 <img src="https://i.imgur.com/cqC7JpG.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
 <br />
@@ -34,7 +34,7 @@ This project provides a comprehensive guide on building a Security Information a
 <img src="https://i.imgur.com/vN7Q8QO.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
 <br />
-<mark>As I move on to create the VM, I must proceed through the settings to deploy.</mark>  <br/>
+<mark>Moving on to the creation process for the VM, proceeding through the settings to deploy.</mark>  <br/>
 <img src="https://i.imgur.com/EmcEYaf.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
 <br />
@@ -66,11 +66,11 @@ This project provides a comprehensive guide on building a Security Information a
 <img src="https://i.imgur.com/FLYSjMY.png" height="80%" width="80%" alt="SIEM Building Steps"/>
  <br />
  <br />
-<mark>Once rule is added it'll show this new custom rule.</mark>  <br/>
+<mark>Once the rule is added it'll display the following.</mark>  <br/>
 <img src="https://i.imgur.com/eJrE76k.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Finally review and create the VM.</mark>  <br/>
+<mark>Finally <strong>"review + create"</strong> the VM.</mark>  <br/>
 <img src="https://i.imgur.com/koQyaK6.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
@@ -93,7 +93,7 @@ This project provides a comprehensive guide on building a Security Information a
 <img src="https://i.imgur.com/Uk8kyyw.png" height="50%" width="50%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Log Analytics Workspace Main page, and selecting <strong>"Create log analytics workspace"</strong>.</mark>  <br/>
+<mark>Log Analytics Workspace main page. Proceeding to <strong>"Create log analytics workspace"</strong>.</mark>  <br/>
 <img src="https://i.imgur.com/kysqi1m.png" height="80%" width="80%" alt="SIEM Building Steps"/> 
 <br />
  <br />
@@ -128,7 +128,7 @@ This project provides a comprehensive guide on building a Security Information a
 <img src="https://i.imgur.com/RhjKKy2.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>As shown below the 2 following plans were turned <strong>"On"</strong>.</mark> <br/>
+<mark>As shown below the 2 following defender plans are turned <strong>"On"</strong>.</mark> <br/>
 <img src="https://i.imgur.com/gL75s8u.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
@@ -224,7 +224,7 @@ This project provides a comprehensive guide on building a Security Information a
 <img src="https://i.imgur.com/mjrdo6d.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>On the VM is open, I proceed to <strong>"Event Viewer"</strong>.</mark> <br/>
+<mark>Once the VM is open, proceed into <strong>"Event Viewer"</strong>.</mark> <br/>
 <img src="https://i.imgur.com/SX6vDB7.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
@@ -244,7 +244,7 @@ This project provides a comprehensive guide on building a Security Information a
 <img src="https://i.imgur.com/GTwBZMa.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Event Viewer is showing Audit Failure, by looking in deeper within the Failure I can see the IP address and other information based on the attempt made.</mark> <br/>
+<mark>Event Viewer is showing the audit failure from the attempt made by me. By looking in deeper within the failure I can see the IP address and other information based on the attempt made.</mark> <br/>
 <img src="https://i.imgur.com/R0xng92.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
@@ -335,77 +335,77 @@ This project provides a comprehensive guide on building a Security Information a
 <h2>Section 9 - Log Analytics Workspace with Custom Logs</h2>
 <p align="center">
 <br />
-<mark>Moving onto Log Analytics Workspace > In the law-honeypot > To create a custom log:</mark> <br/>
+<mark>Moving onto <strong>Log Analytics Workspace > In the law-honeypot > To create a custom log</strong>.</mark> <br/>
 <img src="https://i.imgur.com/nV0OW4j.png" height="50%" width="50%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Creating a new custom log (MMA-based):</mark> <br/>
+<mark>Creating a new custom log (MMA-based).</mark> <br/>
 <img src="https://i.imgur.com/mt3He3H.png" height="30%" width="30%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Custom Log creation process, firstly I needed a sample log:</mark> <br/>
+<mark>For the custom Log creation process, a sample log must be provided so the custom log can learn the data it will be extracting.</mark> <br/>
 <img src="https://i.imgur.com/jSsRAWJ.png" height="50%" width="50%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Sample log is taken from the "failed_rdp" file by copying it to transfer over to the main computer to then create a sample log for the custom log to analyse:</mark> <br/>
+<mark>The sample log is extracted from the <strong>"failed_rdp"</strong> file by copying it to the main computer, where it is then used to create a sample log for the custom log to analyse.</mark> <br/>
 <img src="https://i.imgur.com/v7LgVhC.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Copied over from the "failed_rdp" file to the main computer for the sample log to proceed:</mark> <br/>
+<mark>Submitting the sample log from the main computer on the custom log creation page.</mark> <br/>
 <img src="https://i.imgur.com/N4iWd0C.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <img src="https://i.imgur.com/EN8a8HU.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Sample log uploaded:</mark> <br/>
+<mark>Sample log uploaded.</mark> <br/>
 <img src="https://i.imgur.com/910Io5E.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Custom log with correct path in the VM to pull the "failed_rdp" logs:</mark> <br/>
+<mark>The custom log needs to link to the correct path in the VM to retrieve the <strong>"failed_rdp"</strong> logs.</mark> <br/>
 <img src="https://i.imgur.com/blT9N8Q.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Create a custom log name = "FAILED_RDP_WITH_GEO":</mark> <br/>
+<mark>The custom log was named the following: <strong>"FAILED_RDP_WITH_GEO"</strong></mark> <br/>
 <img src="https://i.imgur.com/4xzGouw.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Finally create the custom log:</mark> <br/>
+<mark>Custom log proceeding to <strong>"review + create"</strong>.</mark> <br/>
 <img src="https://i.imgur.com/0KeKmcr.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <img src="https://i.imgur.com/l0j6zVu.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Moving to Logs within Log Analytics Workspace > law-honeypot > Logs:</mark> <br/>
+<mark>Moving to Logs within <strong>Log Analytics Workspace > law-honeypot > Logs</strong>.</mark> <br/>
 <img src="https://i.imgur.com/AAFlxtR.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Start a New Query and Test the "FAILED_RDP_WITH_GEO_CL. In some circumstances results may not show up this is due to the system need time to update this may take up to 20 minutes until it can show the proper results:</mark> <br/>
+<mark>Start a 'New Query' and 'Run' the <strong>"FAILED_RDP_WITH_GEO_CL"</strong>. In some circumstances results may not show up immediately, this is because the system needs time to update, which can take up to 20 minutes.</mark> <br/>
 <img src="https://i.imgur.com/9Xub4sq.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Run "SecurityEvent" to see the Windows Event Viewer logs:</mark> <br/>
+<mark>While waiting you can 'Run' <strong>"SecurityEvent"</strong> to see the Windows Event Viewer logs.</mark> <br/>
 <img src="https://i.imgur.com/kqlq4MN.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Adding more commands where eventID is equal to 4625 will show the failed login attempts:</mark> <br/>
+<mark>By adding further commands <strong>"where eventID == 4625"</strong> this will only extract failed attempts on logins. <i>EventID 4625 dcouments every failed attempt at logging on to a local computer</i>.</mark> <br/>
 <img src="https://i.imgur.com/KYq9Zzb.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>After 20 minutes retry "FAILED_RDP_WITH_GEO_CL" now shows that it has been updated and fully loaded through:</mark> <br/>
+<mark>After 20 minutes retry <strong>"FAILED_RDP_WITH_GEO_CL"</strong>. Once it updates the results should show as seen below.</mark> <br/>
 <img src="https://i.imgur.com/7VGa3Ln.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>The VM is now being recongised around the world and starting to get attacked:</mark> <br/>
+<mark>While waiting during that period, the VM was being recongised around the world and started to see some failed RDP login attempts.</mark> <br/>
 <img src="https://i.imgur.com/LkvGnfs.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 </p>
 
-<h2>Section 10 - Live Attacks shown on a map</h2>
+<h2>Section 10 - Live attacks visualised on a map</h2>
 <p align="center">
 <br />
-<mark>On the same query pull certain extracts from the logs with the following commands.<br/></mark>
-Further explaination : "FAILED_RDP_WITH_GEO_CL" is the name of the log table I was querying, <strong>"extend"</strong> creates columns by extracting data from the <strong>'RawData'</strong> field, extracts are made by using a regex (regular expression) pattern which is a sequence of characters that defines a search pattern. Regex are used for tasks such as validating input, seraching for patterns within text, and extracting specific information from text. <strong>"project"</strong> selects the columns to be included in the output. This query is designed to parse specific information from the <strong>'RawData'</strong> field and present it in a structured format as a geographic map. <br/>
+<mark>On the same query, I needed the following commands to pull certain extracts from the logs using the following commands as shown.<br/></mark>
+<i>Further explaination : "FAILED_RDP_WITH_GEO_CL" is the name of the log table I was querying, <strong>"extend"</strong> creates columns by extracting data from the <strong>'RawData'</strong> field, extracts are made by using a regex (regular expression) pattern which is a sequence of characters that defines a search pattern. Regex are used for tasks such as validating input, seraching for patterns within text, and extracting specific information from text. <strong>"project"</strong> selects the columns to be included in the output. This query is designed to parse specific information from the <strong>'RawData'</strong> field and present it in a structured format as a geographic map. </i> <br/>
 <img src="https://i.imgur.com/w622nlB.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>Moving to Sentinel add a new workbook:</mark> <br/>
+<mark>Moving to Sentinel, I add a new workbook.</mark> <br/>
 <img src="https://i.imgur.com/qhrqc7W.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
@@ -415,7 +415,7 @@ Further explaination : "FAILED_RDP_WITH_GEO_CL" is the name of the log table I w
 <br />
  <br />
 <mark>I ran the following query as shown in the image below.<br/></mark>
-Further explaination : "FAILED_RDP_WITH_GEO_CL" is the name of the log table I was querying, <strong>"extend"</strong> creates columns by extracting data from the <strong>'RawData'</strong> field, extracts are made by using a regex (regular expression) pattern which is a sequence of characters that defines a search pattern. Regex are used for tasks such as validating input, seraching for patterns within text, and extracting specific information from text. <strong>"project"</strong> selects the columns to be included in the output. This query is designed to parse specific information from the <strong>'RawData'</strong> field and present it in a structured format as a geographic map. <br/>
+<i>Further explaination : "FAILED_RDP_WITH_GEO_CL" as per the previous commands at the start of Section 10, the following commands are similar except for the additional <strong>"summarize"</strong> which aggregates data by counting occurences <strong>"event_count"</strong> grouped by 'source host', 'latitude', 'longitude', 'country', 'label', and 'destinationhost'. <strong>"where destinationhost != "samplehost"</strong> filters out records that are equal to samplehost. <strong>"where sourcehost != """</strong> filters out records where 'sourcehost' is empty.</i> <br/>
 <img src="https://i.imgur.com/wT32HQW.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
  <br />
@@ -429,7 +429,7 @@ Further explaination : "FAILED_RDP_WITH_GEO_CL" is the name of the log table I w
 <img src="https://i.imgur.com/YZd5ZFv.png" height="50%" width="50%" alt="SIEM Building Steps"/>
 <br />
  <br />
-<mark>This is the final capture before I closed the Honeypot-vm that was left for approximately 12 hours over night to assess further more attacks.</mark> <br/>
+<mark>The final capture before I closed the Honeypot-vm that was left for approximately 12 hours over night to assess further more attacks as displayed below.</mark> <br/>
 <img src="https://i.imgur.com/SwD10HC.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 
 </p>
