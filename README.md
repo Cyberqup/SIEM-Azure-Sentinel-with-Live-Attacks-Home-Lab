@@ -26,7 +26,7 @@ This project provides a comprehensive guide on building a Security Information a
 
 <p align="center">
 <br />
-<mark>Using Azure, as shown in the image below is the main hub page. Selecting <strong>"deploy a virtual machine"</strong>.</mark> <br/>
+<mark>Whilst using Azure this is the main hub page. First step is to setup a VM to be the device of vulnerability (honeypot). To do so we must use <strong>"deploy a virtual machine"</strong>.</mark> <br/>
 <img src="https://i.imgur.com/cqC7JpG.png" height="80%" width="80%" alt="SIEM Building Steps"/>
 <br />
 <br />
